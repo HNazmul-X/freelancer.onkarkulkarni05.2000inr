@@ -26,7 +26,7 @@ const Navbar = () => {
                         <div className="hnazmul-navbar-content-wrapper">
                             <ul className="navbar-list">
                                 <li className="navbar-list-item">
-                                    <NavHashLink to="/#header" activeClassName="active" className="navbar-list-link">
+                                    <NavHashLink  to="/" activeClassName="active" className="navbar-list-link">
                                         소개
                                     </NavHashLink>
                                 </li>

@@ -1,7 +1,7 @@
 .hnazmul-navbar {
     display: flex;
     width: 100%;
-    justify-content: start;
+    justify-content:flex-start;
     box-shadow: 0px 2px 2px 2px #3b3b3b13,
     0px 7px 10px -10px rgba(0, 0, 0, 0.336);
     position: fixed;
@@ -128,5 +128,5 @@
 }
 
 .hnazmul-navbar-spacer{
-    padding:28px;
+    padding:27px;
 }

@@ -1,0 +1,27 @@
+$brand-color:#FC3288;
+$brand-gradient:linear-gradient(93.58deg, #FC3288 0%, #843795 100%);;
+$brand-secondary:#843795;
+
+.theme-btn{
+    background:$brand-color !important;
+    border:none;
+    padding:10px 20px;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.theme-gd-btn{
+    background:$brand-gradient;
+}
+
+.theme-seconday{
+    &.btn{
+        background:$brand-secondary;
+
+    }
+    &.text{
+        color:$brand-secondary;
+    }
+}

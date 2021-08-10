@@ -1,3 +1,25 @@
+.theme-btn {
+  background: #FC3288 !important;
+  border: none;
+  padding: 10px 20px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.theme-gd-btn {
+  background: linear-gradient(93.58deg, #FC3288 0%, #843795 100%);
+}
+
+.theme-seconday.btn {
+  background: #843795;
+}
+
+.theme-seconday.text {
+  color: #843795;
+}
+
 .hnazmul-navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5,7 +27,7 @@
   width: 100%;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: start;
+          justify-content: flex-start;
   -webkit-box-shadow: 0px 2px 2px 2px #3b3b3b13, 0px 7px 10px -10px rgba(0, 0, 0, 0.336);
           box-shadow: 0px 2px 2px 2px #3b3b3b13, 0px 7px 10px -10px rgba(0, 0, 0, 0.336);
   position: fixed;
@@ -163,6 +185,107 @@
 }
 
 .hnazmul-navbar-spacer {
-  padding: 28px;
+  padding: 27px;
+}
+
+.home-page-header {
+  width: 100%;
+  padding: 70px 0px;
+  background: rgba(0, 0, 0, 0.281) url(../images/home.svg) no-repeat center;
+  background-blend-mode: soft-light;
+  background-size: cover;
+  color: white;
+}
+
+.home-page-header .slick-slide {
+  padding: 20px;
+}
+
+.home-page-header .title {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.home-page-header .under-title {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .home-page-header .under-title {
+    width: 100%;
+  }
+}
+
+.home-page-header .slick-arrow.slick-prev {
+  left: -60px;
+}
+
+.home-page-header .slick-arrow::before {
+  font-size: 50px;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.349);
+}
+
+.pilates-card {
+  background: url(../images/F0WzpR-GJl8.png) no-repeat center;
+  background-color: rgba(0, 0, 0, 0.534);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  height: 400px;
+  max-width: 350px;
+  color: white;
+  margin: auto;
+  position: relative;
+  -webkit-box-shadow: 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1), 0px 24px 80px rgba(17, 17, 26, 0.1);
+          box-shadow: 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1), 0px 24px 80px rgba(17, 17, 26, 0.1);
+}
+
+.pilates-card .event {
+  color: #ae4dc4;
+}
+
+.pilates-card .bottom-bar {
+  position: absolute;
+  bottom: 0px;
+  background: #363636;
+  text-align: right;
+  width: 100%;
+  left: 0px;
+  padding: 5px;
+}
+
+.pilates-card .bottom-bar input[type="checkbox"] {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin: 2px 10px;
+}
+
+#mirror {
+  padding: 3rem 0px;
+}
+
+#mirror .title {
+  max-width: 400px;
+  margin: auto;
+}
+
+#mirror .title h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#mirror .title p {
+  font-size: 15px;
+  color: dimgray;
+}
+
+#mirror .slick-arrow::before {
+  font-size: 30px;
+  background: transparent;
+  color: black;
+}
+
+#mirror #image-card img {
+  width: 100% !important;
 }
 /*# sourceMappingURL=style.css.map */
