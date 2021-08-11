@@ -469,4 +469,35 @@ html, body {
 #Skills #circle-image-card {
   color: white;
 }
+
+#contents {
+  padding: 2rem;
+}
+
+#contents .title {
+  padding: 2rem;
+}
+
+#contents .content-card .content-card-img img {
+  width: 100%;
+}
+
+#contents .content-card div.content-card-desc {
+  text-align: center;
+  padding: 5px;
+}
+
+#contents .content-card div.content-card-desc h4 {
+  font-size: 20px;
+}
+
+#contents .content-card div.content-card-desc p {
+  font-size: 14px;
+}
+
+#practice-image {
+  padding: 20vw 2rem;
+  background: url(../images/pracice-image.png) no-repeat center;
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */

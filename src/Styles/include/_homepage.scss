@@ -146,3 +146,34 @@
         color:white;
     }
 }
+
+#contents{
+    padding:2rem;
+    .title{
+        padding: 2rem;
+    }
+    .content-card{
+        .content-card-img{
+            img{
+                width:100%;
+            }
+        }
+        div.content-card-desc{
+            text-align: center;
+            padding: 5px;;
+            h4{
+                font-size:20px;
+            }
+            p{
+                font-size:14px;
+            }
+        }
+    }
+}
+
+#practice-image{
+    padding:20vw 2rem;
+    background:url(../images/pracice-image.png) no-repeat center;
+    background-size: cover;
+    
+}

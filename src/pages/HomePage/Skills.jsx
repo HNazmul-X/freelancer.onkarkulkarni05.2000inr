@@ -1,4 +1,3 @@
-import { data } from "browserslist";
 import React from "react";
 import ReactSlickCarousel from "../../Components/Carousel/ReactSlickCarousel";
 import CircleImageCard from "../../Components/CircleImageCard/CircleImageCard";
