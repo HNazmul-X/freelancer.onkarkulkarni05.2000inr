@@ -4,6 +4,10 @@
   padding: 10px 20px;
 }
 
+.theme-text {
+  color: #FC3288;
+}
+
 html, body {
   overflow-x: hidden;
 }
@@ -43,6 +47,104 @@ html, body {
 .services-card .card .card-text {
   font-size: 12px;
   color: dimgray;
+}
+
+.theme-btn {
+  background: #FC3288 !important;
+  border: none;
+  padding: 10px 20px;
+}
+
+.theme-text {
+  color: #FC3288;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.theme-gd-btn {
+  background: linear-gradient(93.58deg, #FC3288 0%, #843795 100%);
+}
+
+.theme-seconday.btn {
+  background: #843795;
+}
+
+.theme-seconday.text {
+  color: #843795;
+}
+
+.container {
+  max-width: 1024px !important;
+}
+
+.services-card .card {
+  border: none;
+}
+
+.services-card .card .card-img-top {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.services-card .card .card-title {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.services-card .card .card-text {
+  font-size: 12px;
+  color: dimgray;
+}
+
+#circle-image-card {
+  padding: 20px 10px;
+}
+
+#circle-image-card .card-image {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#circle-image-card .card-image::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: block;
+  height: 3px;
+  background: #666666;
+  bottom: 5px;
+}
+
+#circle-image-card .card-image img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+  border: 5px solid white;
+}
+
+#circle-image-card .text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#circle-image-card .text .title {
+  font-size: 18px;
+}
+
+#circle-image-card .text .desc {
+  color: #FC3288;
 }
 
 .hnazmul-navbar {
@@ -312,5 +414,59 @@ html, body {
 
 #mirror #image-card img {
   width: 100% !important;
+}
+
+#fitness {
+  padding: 2rem;
+}
+
+#fitness div.title {
+  max-width: 430px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+#fitness div.title h1 {
+  font-size: 30px;
+}
+
+#fitness #image-card {
+  padding: 20px;
+  text-align: center;
+}
+
+#fitness #image-card img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#fitness .bottom-text {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#Skills {
+  background-color: #393637;
+  padding: 2rem;
+  color: white;
+}
+
+#Skills > .title {
+  margin: auto;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+#Skills > .title h1 {
+  font-size: 30px;
+}
+
+#Skills #circle-image-card {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

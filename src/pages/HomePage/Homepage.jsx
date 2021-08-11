@@ -1,7 +1,10 @@
 import React from 'react';
+import Contents from './Contents';
+import Fitness from './Fitness';
 import { Header } from './Header';
 import Mirror from './Mirror';
 import ServicesSection from './ServicesSection';
+import Skills from './Skills';
 
 const Homepage = () => {
     return (
@@ -9,6 +12,9 @@ const Homepage = () => {
         <Header/>
         <Mirror/>
         <ServicesSection/>
+        <Fitness/>
+        <Skills/>
+        <Contents/>
         </>
     );
 };

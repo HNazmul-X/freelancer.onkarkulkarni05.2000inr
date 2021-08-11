@@ -1,0 +1,40 @@
+@import "util";
+#circle-image-card {
+    padding: 20px 10px;
+    .card-image {
+        position: relative;
+        z-index: 1;
+        padding-bottom: 20px;
+        text-align: center;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+            height: 3px;
+            background: rgb(102, 102, 102);
+            bottom: 5px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: auto;
+            border: 5px solid white;;
+        }
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 10px;
+        .title {
+            font-size: 18px;
+        }
+        .desc {
+            color: $brand-color;
+        }
+    }
+}

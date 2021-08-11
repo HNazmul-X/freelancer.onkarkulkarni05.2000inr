@@ -7,7 +7,9 @@ $brand-secondary:#843795;
     border:none;
     padding:10px 20px;
 }
-
+.theme-text{
+    color:$brand-color;
+}
 html, body{
     overflow-x: hidden;
 }
