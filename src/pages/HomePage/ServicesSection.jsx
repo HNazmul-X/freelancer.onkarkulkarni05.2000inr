@@ -37,7 +37,7 @@ const ServicesSection = () => {
     ];
 
     return (
-        <div id="services" className="py-5">
+        <div id="partner" className="py-5">
             <div className="title  mx-auto text-center p-5">
                 <h2 className="fw-bolder">
                     홈트레이닝의 혁명 <br /> 운동 파트너 미트니스

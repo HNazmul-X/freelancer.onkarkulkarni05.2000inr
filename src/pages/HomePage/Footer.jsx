@@ -28,9 +28,11 @@ const Footer = () => {
             </footer>
 
             <section id="footer-gellery">
-                <div className="w-100 row row-col-3 row-cols-md-6">
+                <div className="images-container">
                     {footerGelleryImages.map((img) => (
-                        <img src={img} className="col p-0" alt="" />
+                        <div className="image-wrapper">
+                            <img src={img} className="w-100" alt="" />
+                        </div>
                     ))}
                 </div>
             </section>

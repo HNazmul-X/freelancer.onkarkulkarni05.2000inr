@@ -68,7 +68,7 @@ export const Header = () => {
     };
 
     return (
-        <header className="home-page-header">
+        <header id="header" className="home-page-header">
             <div className="container">
                 <ReactSlickCarousel settings={settings}>
                     {[...new Array(4)].map((item, index) => {

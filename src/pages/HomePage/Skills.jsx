@@ -28,6 +28,11 @@ const Skills = () => {
             desc: "필라테스 강사",
             img: SKILLS_IMG_4,
         },
+        {
+            title: "Hong Gil Dong",
+            desc: "필라테스 강사",
+            img: SKILLS_IMG_1,
+        },
     ];
      const carouselSettings = {
          dots: true,
@@ -75,7 +80,7 @@ const Skills = () => {
             <div className="container">
                 <ReactSlickCarousel settings={carouselSettings}>
                     {skillsData.map((data) => (
-                        <CircleImageCard />
+                        <CircleImageCard data={data} />
                     ))}
                 </ReactSlickCarousel>
             </div>

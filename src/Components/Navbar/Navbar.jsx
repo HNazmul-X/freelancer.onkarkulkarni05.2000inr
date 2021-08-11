@@ -14,7 +14,7 @@ const Navbar = () => {
             <nav className="hnazmul-navbar">
                 <div className="hnazmul-navbar-container">
                     <div className="hnazmul-nav-brand">
-                        <h4>Navbar brand</h4>
+                        <h4 className="fst-italic">MITNESS</h4>
                     </div>
                     <div onClick={() => setIsNavbarshow(!isNavbarshow)} className="hnazmul-nav-toggle-btn">
                         <button>
@@ -26,7 +26,7 @@ const Navbar = () => {
                         <div className="hnazmul-navbar-content-wrapper">
                             <ul className="navbar-list">
                                 <li className="navbar-list-item">
-                                    <NavHashLink  to="/" activeClassName="active" className="navbar-list-link">
+                                    <NavHashLink defaultChecked to="/#header" activeClassName="active" className="navbar-list-link">
                                         소개
                                     </NavHashLink>
                                 </li>
@@ -35,9 +35,19 @@ const Navbar = () => {
                                         파트너
                                     </NavHashLink>
                                 </li>
+                                <li className="navbar-list-item">
+                                    <NavHashLink to="/#contents" activeClassName="active" className="navbar-list-link">
+                                        콘텐츠
+                                    </NavHashLink>
+                                </li>
+                                <li className="navbar-list-item">
+                                    <NavHashLink to="/#FAQ" activeClassName="active" className="navbar-list-link">
+                                        문의
+                                    </NavHashLink>
+                                </li>
                             </ul>
                             <button onClick={() => setIsNavbarshow(!isNavbarshow)} className="navbar-closer-icon">
-                                <InlineIcon  height="50px" icon="clarity:times-circle-line" />
+                                <InlineIcon height="50px" icon="clarity:times-circle-line" />
                             </button>
                         </div>
                     </div>
