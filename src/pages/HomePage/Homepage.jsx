@@ -1,4 +1,5 @@
 import React from 'react';
+import { PilatesCard } from '../../Util/Utils';
 import Contents from './Contents';
 import FAQ from './FAQ';
 import Fitness from './Fitness';
@@ -21,6 +22,8 @@ const Homepage = () => {
         <InfroDataTable/>
         <FAQ/>
         <Footer/>
+        {/* for porpup */}
+        <PilatesCard/>
         </>
     );
 };

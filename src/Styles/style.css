@@ -1,19 +1,20 @@
 .theme-btn {
-  background: #FC3288 !important;
+  background: #fc3288 !important;
   border: none;
   padding: 10px 20px;
 }
 
 .theme-text {
-  color: #FC3288;
+  color: #fc3288;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
 .theme-gd-btn {
-  background: linear-gradient(93.58deg, #FC3288 0%, #843795 100%);
+  background: linear-gradient(93.58deg, #fc3288 0%, #843795 100%);
 }
 
 .theme-seconday.btn {
@@ -47,24 +48,101 @@ html, body {
 .services-card .card .card-text {
   font-size: 12px;
   color: dimgray;
+}
+
+/* slider custom arrow */
+.slick-arrow.slick-prev::before {
+  content: "";
+  display: inline-block;
+  width: 51px;
+  height: 42px;
+  vertical-align: -0.125em;
+  background: url("https://api.iconify.design/grommet-icons/previous.svg?color=%23d1d1d1") no-repeat center center/contain;
+}
+
+.slick-arrow.slick-next::before {
+  content: "";
+  display: inline-block;
+  width: 51px;
+  height: 42px;
+  vertical-align: -0.125em;
+  background: url("https://api.iconify.design/grommet-icons/next.svg?color=%23d1d1d1") no-repeat center center/contain;
+}
+
+/* palitates card section start from here */
+.pilates-card {
+  background: url(../images/F0WzpR-GJl8.png) no-repeat center;
+  background-color: rgba(0, 0, 0, 0.534);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  height: 400px;
+  width: 350px;
+  color: white;
+  margin: auto;
+  position: fixed;
+  z-index: 1001;
+  top: 50%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1), 0px 24px 80px rgba(17, 17, 26, 0.1);
+          box-shadow: 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1), 0px 24px 80px rgba(17, 17, 26, 0.1);
+}
+
+.pilates-card .card-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.pilates-card .card-wrapper .event {
+  color: #ae4dc4;
+}
+
+.pilates-card .card-wrapper .bottom-bar {
+  position: absolute;
+  bottom: 0px;
+  background: #363636;
+  text-align: right;
+  width: 100%;
+  left: 0px;
+  padding: 5px;
+}
+
+.pilates-card .card-wrapper .bottom-bar input[type="checkbox"] {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin: 2px 10px;
+}
+
+.pilates-card .card-wrapper .times-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  font-size: 35px;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .theme-btn {
-  background: #FC3288 !important;
+  background: #fc3288 !important;
   border: none;
   padding: 10px 20px;
 }
 
 .theme-text {
-  color: #FC3288;
+  color: #fc3288;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
 .theme-gd-btn {
-  background: linear-gradient(93.58deg, #FC3288 0%, #843795 100%);
+  background: linear-gradient(93.58deg, #fc3288 0%, #843795 100%);
 }
 
 .theme-seconday.btn {
@@ -98,6 +176,82 @@ html, body {
 .services-card .card .card-text {
   font-size: 12px;
   color: dimgray;
+}
+
+/* slider custom arrow */
+.slick-arrow.slick-prev::before {
+  content: "";
+  display: inline-block;
+  width: 51px;
+  height: 42px;
+  vertical-align: -0.125em;
+  background: url("https://api.iconify.design/grommet-icons/previous.svg?color=%23d1d1d1") no-repeat center center/contain;
+}
+
+.slick-arrow.slick-next::before {
+  content: "";
+  display: inline-block;
+  width: 51px;
+  height: 42px;
+  vertical-align: -0.125em;
+  background: url("https://api.iconify.design/grommet-icons/next.svg?color=%23d1d1d1") no-repeat center center/contain;
+}
+
+/* palitates card section start from here */
+.pilates-card {
+  background: url(../images/F0WzpR-GJl8.png) no-repeat center;
+  background-color: rgba(0, 0, 0, 0.534);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  height: 400px;
+  width: 350px;
+  color: white;
+  margin: auto;
+  position: fixed;
+  z-index: 1001;
+  top: 50%;
+  left: 70%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1), 0px 24px 80px rgba(17, 17, 26, 0.1);
+          box-shadow: 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1), 0px 24px 80px rgba(17, 17, 26, 0.1);
+}
+
+.pilates-card .card-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.pilates-card .card-wrapper .event {
+  color: #ae4dc4;
+}
+
+.pilates-card .card-wrapper .bottom-bar {
+  position: absolute;
+  bottom: 0px;
+  background: #363636;
+  text-align: right;
+  width: 100%;
+  left: 0px;
+  padding: 5px;
+}
+
+.pilates-card .card-wrapper .bottom-bar input[type="checkbox"] {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin: 2px 10px;
+}
+
+.pilates-card .card-wrapper .times-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  font-size: 35px;
+  padding: 5px;
+  cursor: pointer;
 }
 
 #circle-image-card {
@@ -144,7 +298,7 @@ html, body {
 }
 
 #circle-image-card .text .desc {
-  color: #FC3288;
+  color: #fc3288;
 }
 
 /* faq card css here */
@@ -160,11 +314,11 @@ html, body {
 }
 
 #faq-card.active .faq-label a {
-  color: #FC3288 !important;
+  color: #fc3288 !important;
 }
 
 #faq-card.active .faq-label .icon {
-  color: #FC3288;
+  color: #fc3288;
 }
 
 #faq-card .faq-label {
@@ -358,77 +512,37 @@ html, body {
 }
 
 /* home page header */
-.home-page-header {
-  width: 100%;
-  padding: 70px 0px;
-  background: rgba(0, 0, 0, 0.281) url(../images/home.svg) no-repeat center;
-  background-blend-mode: soft-light;
+#homepage-header #header {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.39) url(../images/home.svg) no-repeat center;
   background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+#homepage-header #header > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
   color: white;
 }
 
-.home-page-header .slick-slide {
-  padding: 20px;
+#homepage-header #header > .container .content h1 {
+  margin-bottom: 20px;
+  font-weight: bolder;
 }
 
-.home-page-header .title {
-  font-size: 50px;
-  font-weight: 900;
+#homepage-header .slick-arrow.slick-prev {
+  left: 4.5%;
+  z-index: 1;
 }
 
-.home-page-header .under-title {
-  width: 50%;
-}
-
-@media screen and (max-width: 768px) {
-  .home-page-header .under-title {
-    width: 100%;
-  }
-}
-
-.home-page-header .slick-arrow.slick-prev {
-  left: -60px;
-}
-
-.home-page-header .slick-arrow::before {
-  font-size: 50px;
-  background: transparent;
-  color: rgba(0, 0, 0, 0.349);
-}
-
-/* palitates card section start from here */
-.pilates-card {
-  background: url(../images/F0WzpR-GJl8.png) no-repeat center;
-  background-color: rgba(0, 0, 0, 0.534);
-  background-blend-mode: soft-light;
-  background-size: cover;
-  height: 400px;
-  max-width: 350px;
-  color: white;
-  margin: auto;
-  position: relative;
-  -webkit-box-shadow: 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1), 0px 24px 80px rgba(17, 17, 26, 0.1);
-          box-shadow: 0px 8px 24px rgba(17, 17, 26, 0.1), 0px 16px 56px rgba(17, 17, 26, 0.1), 0px 24px 80px rgba(17, 17, 26, 0.1);
-}
-
-.pilates-card .event {
-  color: #ae4dc4;
-}
-
-.pilates-card .bottom-bar {
-  position: absolute;
-  bottom: 0px;
-  background: #363636;
-  text-align: right;
-  width: 100%;
-  left: 0px;
-  padding: 5px;
-}
-
-.pilates-card .bottom-bar input[type="checkbox"] {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  margin: 2px 10px;
+#homepage-header .slick-arrow.slick-next {
+  right: 4.5%;
+  z-index: 1;
 }
 
 /* mirror section start from here */
@@ -554,7 +668,7 @@ html, body {
 /* faq under brand color bar */
 #under-faq {
   padding: 2rem;
-  background: #FC3288;
+  background: #fc3288;
 }
 
 footer#footer {
