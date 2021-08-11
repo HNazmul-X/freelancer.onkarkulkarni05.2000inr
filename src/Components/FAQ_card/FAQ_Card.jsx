@@ -1,21 +1,24 @@
 import { InlineIcon } from "@iconify/react";
-import React from "react";
+import React, { useState } from "react";
 import { randomString } from "../../Util/Utils";
 
-const FaqCard = () => {
-
-    let id = randomString(5)
+const FaqCard = ({data}) => {
+    let id = randomString(5);
+    const [isActive, setIsActive] = useState(false)
+    const { question,  answer } = data;
 
     return (
         <>
-            <div class="faq-label">
-                <a class="btn btn-primary w-100" data-bs-toggle="collapse" href={`#${id}`} role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Link with href
-                </a>
-                <InlineIcon icon="akar-icons:chevron-up" />
-            </div>
-            <div class="collapse" id={id}>
-                <div class="card card-body">Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</div>
+            <div id="faq-card" className={`${isActive ? "active" : ""}`}>
+                <div onClick={() => setIsActive(!isActive)} class="faq-label">
+                    <a class="w-100" data-bs-toggle="collapse" href={`#${id}`} role="button" aria-expanded="false" aria-controls="collapseExample">
+                       {question}
+                    </a>
+                    <InlineIcon className="icon" icon={`akar-icons:chevron-${isActive?"down":"up"}`} />
+                </div>
+                <div class="collapse" id={id}>
+                    <div class="p-4">{answer}</div>
+                </div>
             </div>
         </>
     );

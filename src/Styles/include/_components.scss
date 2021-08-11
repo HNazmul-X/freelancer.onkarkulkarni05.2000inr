@@ -23,7 +23,7 @@
             object-fit: cover;
             border-radius: 50%;
             margin: auto;
-            border: 5px solid white;;
+            border: 5px solid white;
         }
     }
 
@@ -37,4 +37,45 @@
             color: $brand-color;
         }
     }
+}
+
+/* faq card css here */
+#faq-card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+    &.active{
+        background:rgb(255, 237, 253);
+        border:1px solid;
+        border-color: lightgray lightgray transparent lightgray;
+        .faq-label{
+            a{
+                color:$brand-color !important;
+            }
+            .icon{
+                color:$brand-color;
+            }
+        }
+    }
+
+    .faq-label{
+        position: relative;
+        z-index: 1;
+        .icon{
+            position: absolute;
+            top:7px;
+            right:10px;
+            font-size:20px;
+
+        }
+
+        a{
+            width:100%;
+            padding:10px 20px;
+            display: inline-block;
+            text-align:left;
+            text-decoration: none;
+            color:rgb(48, 48, 48);
+        }
+    }
+
 }

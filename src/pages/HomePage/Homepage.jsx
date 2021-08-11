@@ -2,6 +2,7 @@ import React from 'react';
 import Contents from './Contents';
 import FAQ from './FAQ';
 import Fitness from './Fitness';
+import Footer from './Footer';
 import { Header } from './Header';
 import Mirror from './Mirror';
 import ServicesSection from './ServicesSection';
@@ -17,6 +18,7 @@ const Homepage = () => {
         <Skills/>
         <Contents/>
         <FAQ/>
+        <Footer/>
         </>
     );
 };
