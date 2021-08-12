@@ -26,7 +26,7 @@ export const PilatesCard = () => {
                 <button className="btn theme-gd-btn text-light mt-4 w-75">자세히 보기</button>
                 <div className="bottom-bar">
                     <div className="row">
-                        <div className="col-6 text-start">
+                        <div className="col-1 text-start">
                             <input type="checkbox" name="" className="" id="" />
                         </div>
                         <div className="col-6 ">
