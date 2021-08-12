@@ -58,6 +58,11 @@
     .faq-label {
         position: relative;
         z-index: 1;
+        .bullet-point-icon{
+            font-size:9px;
+            margin-right: 10px;
+            margin-bottom: 2px;
+        }
         .icon {
             position: absolute;
             top: 7px;

@@ -346,6 +346,12 @@ body {
   z-index: 1;
 }
 
+#faq-card .faq-label .bullet-point-icon {
+  font-size: 9px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
 #faq-card .faq-label .icon {
   position: absolute;
   top: 7px;
@@ -665,7 +671,6 @@ body {
 
 #fitness .slick-arrow.slick-prev {
   left: -25px;
-  top: 117px;
 }
 
 #fitness .slick-arrow.slick-prev::before {
@@ -674,7 +679,6 @@ body {
 
 #fitness .slick-arrow.slick-next {
   right: -25px;
-  top: 117px;
 }
 
 #fitness .slick-arrow.slick-next::before {

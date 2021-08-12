@@ -12,7 +12,7 @@ const FaqCard = ({data}) => {
             <div id="faq-card" className={`${isActive ? "active" : ""}`}>
                 <div onClick={() => setIsActive(!isActive)} class="faq-label">
                     <a class="w-100" data-bs-toggle="collapse" href={`#${id}`} role="button" aria-expanded="false" aria-controls="collapseExample">
-                       {question}
+                       <InlineIcon className="bullet-point-icon" icon="akar-icons:circle-fill"/> {question}
                     <InlineIcon className="icon" icon={`akar-icons:chevron-${isActive?"up":"down"}`} />
                     </a>
                 </div>

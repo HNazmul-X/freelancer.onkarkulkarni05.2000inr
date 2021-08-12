@@ -8,7 +8,6 @@ export const randomString = (count) => {
         const randomStringNumber = Math.floor(1 + Math.random() * (letter.length - 1));
         randomString += letter.substring(randomStringNumber, randomStringNumber + 1);
     }
-    console.log(randomString);
     return randomString;
 };
 

@@ -111,14 +111,12 @@
         z-index: 5;
         &.slick-prev {
             left: -25px;
-            top: 117px;
             &::before {
                 background: url("https://api.iconify.design/grommet-icons/previous.svg?color=black") no-repeat center center/contain;
             }
         }
         &.slick-next {
             right: -25px;
-            top: 117px;
             &::before {
                 background: url("https://api.iconify.design/grommet-icons/next.svg?color=black") no-repeat center center/contain;
             }
