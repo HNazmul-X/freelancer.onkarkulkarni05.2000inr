@@ -2,7 +2,7 @@ import ReactSlickCarousel from "../../Components/Carousel/ReactSlickCarousel";
 
 export const Header = () => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,

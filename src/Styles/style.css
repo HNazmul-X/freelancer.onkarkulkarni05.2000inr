@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .theme-btn {
   background: #fc3288 !important;
   border: none;
@@ -6,6 +8,10 @@
 
 .theme-text {
   color: #fc3288;
+}
+
+.font-default, #mirror .title h1, #fitness div.title {
+  font-family: 'Hahmlet', serif;
 }
 
 html,
@@ -134,6 +140,10 @@ body {
 
 .theme-text {
   color: #fc3288;
+}
+
+.font-default, #mirror .title h1, #fitness div.title {
+  font-family: 'Hahmlet', serif;
 }
 
 html,
@@ -546,6 +556,7 @@ body {
 #homepage-header #header > .container .content h1 {
   margin-bottom: 20px;
   font-weight: bolder;
+  font-size: 60px;
 }
 
 #homepage-header .slick-arrow.slick-prev {
@@ -575,16 +586,19 @@ body {
 #mirror .title {
   max-width: 400px;
   margin: auto;
+  padding: 2rem 0px;
 }
 
 #mirror .title h1 {
   font-size: 30px;
+  margin-bottom: 20px;
   font-weight: 900;
 }
 
 #mirror .title p {
   font-size: 15px;
-  color: dimgray;
+  color: #5f5f5f;
+  font-weight: bolder;
 }
 
 #mirror .slick-arrow::before {
@@ -611,6 +625,7 @@ body {
 
 #fitness div.title h1 {
   font-size: 30px;
+  font-weight: 900;
 }
 
 #fitness #image-card {
@@ -637,8 +652,8 @@ body {
 }
 
 #fitness .slick-arrow.slick-prev {
-  left: -6.2%;
-  top: 32.3%;
+  left: -25px;
+  top: 117px;
 }
 
 #fitness .slick-arrow.slick-prev::before {
@@ -646,8 +661,8 @@ body {
 }
 
 #fitness .slick-arrow.slick-next {
-  right: 6.2%;
-  top: 32.3%;
+  right: -25px;
+  top: 117px;
 }
 
 #fitness .slick-arrow.slick-next::before {
@@ -681,14 +696,26 @@ body {
   color: white;
 }
 
+#Skills .slick-arrow {
+  z-index: 5;
+}
+
 #Skills .slick-arrow.slick-prev {
-  left: -6.2%;
-  top: 32.3%;
+  left: -25px;
+  top: 117px;
+}
+
+#Skills .slick-arrow.slick-prev::before {
+  background: url("https://api.iconify.design/grommet-icons/previous.svg?color=dimgrey") no-repeat center center/contain;
 }
 
 #Skills .slick-arrow.slick-next {
-  right: 6.2%;
-  top: 32.3%;
+  right: -25px;
+  top: 117px;
+}
+
+#Skills .slick-arrow.slick-next::before {
+  background: url("https://api.iconify.design/grommet-icons/next.svg?color=dimgrey") no-repeat center center/contain;
 }
 
 @media screen and (max-width: 768px) {
@@ -797,7 +824,7 @@ footer#footer > .container .footer-content {
 /* info data -table css here */
 #info-data-table {
   padding: 3rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 800px) {

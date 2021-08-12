@@ -44,7 +44,9 @@ const FAQ = () => {
                         <FaqCard data={data} />
                     ))}
                 </div>
-                <div className="p-4"></div>
+                <div className="p-4">
+                    <div className="text-center"> <span>1</span> <span className="text-secondary">2</span> </div>
+                </div>
             </section>
             <section id="under-faq">
                 <div className="container">
