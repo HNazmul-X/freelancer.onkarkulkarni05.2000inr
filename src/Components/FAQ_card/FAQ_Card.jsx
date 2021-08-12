@@ -13,11 +13,11 @@ const FaqCard = ({data}) => {
                 <div onClick={() => setIsActive(!isActive)} class="faq-label">
                     <a class="w-100" data-bs-toggle="collapse" href={`#${id}`} role="button" aria-expanded="false" aria-controls="collapseExample">
                        {question}
+                    <InlineIcon className="icon" icon={`akar-icons:chevron-${isActive?"up":"down"}`} />
                     </a>
-                    <InlineIcon className="icon" icon={`akar-icons:chevron-${isActive?"down":"up"}`} />
                 </div>
                 <div class="collapse" id={id}>
-                    <div class="p-4">{answer}</div>
+                    <div class="p-4 answer pl-5">{answer}</div>
                 </div>
             </div>
         </>

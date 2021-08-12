@@ -43,39 +43,39 @@
 #faq-card {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
-    &.active{
-        background:rgb(255, 237, 253);
-        border:1px solid;
-        border-color: lightgray lightgray transparent lightgray;
-        .faq-label{
-            a{
-                color:$brand-color !important;
+    &.active {
+        border-top: 1px solid black;
+        .faq-label {
+            a {
+                color: $brand-color !important;
             }
-            .icon{
-                color:$brand-color;
+            .icon {
+                color: $brand-color;
             }
         }
     }
 
-    .faq-label{
+    .faq-label {
         position: relative;
         z-index: 1;
-        .icon{
+        .icon {
             position: absolute;
-            top:7px;
-            right:10px;
-            font-size:20px;
-
+            top: 7px;
+            right: 10px;
+            font-size: 20px;
         }
 
-        a{
-            width:100%;
-            padding:10px 20px;
+        a {
+            width: 100%;
+            padding: 10px 20px;
             display: inline-block;
-            text-align:left;
+            text-align: left;
             text-decoration: none;
-            color:rgb(48, 48, 48);
+            color: rgb(48, 48, 48);
         }
     }
-
+    .answer {
+        transition: 0.4s;
+        padding-left: 3rem !important;
+    }
 }

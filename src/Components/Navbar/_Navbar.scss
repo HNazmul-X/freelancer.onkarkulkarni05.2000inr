@@ -81,6 +81,11 @@
             .hnazmul-nav-toggle-btn {
                 display: block;
                 margin-left: auto;
+                button{
+                    
+                background:transparent;
+                color:lightgray;
+                }
             }
             .hnazmul-navbar-content {
                 display: block;
@@ -103,10 +108,14 @@
                     position: relative;
                     ul.navbar-list {
                         display: block;
-                        background:rgb(211, 226, 214);
+                        background:rgb(226, 211, 225);
                         width:80%;
                         li.navbar-list-item {
                             text-align: center;
+                            .navbar-list-link{
+                                color:rgb(85, 85, 85);
+                                width: 100%;
+                            }
                             
                         }
                     }

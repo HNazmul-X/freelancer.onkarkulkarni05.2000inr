@@ -5,6 +5,7 @@
         background: rgba(0, 0, 0, 0.39) url(../images/home.svg) no-repeat center;
         background-size: cover;
         background-blend-mode: soft-light;
+        padding:2rem;
         & > .container {
             display: flex;
             align-items: center;
@@ -18,16 +19,23 @@
             }
         }
     }
-    .slick-arrow.slick-prev{
-        left:4.5%;
+    .slick-arrow.slick-prev {
+        left: 4.5%;
         z-index: 1;
     }
-    .slick-arrow.slick-next{
-        right:4.5%;
+    .slick-arrow.slick-next {
+        right: 4.5%;
         z-index: 1;
+    }
+    @media screen and (max-width:1025px) {
+        .slick-arrow.slick-prev{
+            left:-1%;
+        }
+        .slick-arrow.slick-next{
+            right:6%;
+        }
     }
 }
-
 
 /* mirror section start from here */
 #mirror {
@@ -92,7 +100,37 @@
         text-align: center;
         margin-top: 20px;
     }
+    .slick-arrow {
+        z-index: 5;
+        &.slick-prev {
+            left: -6.2%;
+            top: 32.3%;
+            &::before{
+               background:  url("https://api.iconify.design/grommet-icons/previous.svg?color=black") no-repeat center center/contain
+            }
+        }
+        &.slick-next {
+            right: 6.2%;
+            top: 32.3%;
+            &::before{
+               background:  url("https://api.iconify.design/grommet-icons/next.svg?color=black") no-repeat center center/contain
+            }
+
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .slick-arrow{
+            &.slick-next{
+                right:0%;
+            }
+        }
+    }
 }
+
+// #partner {
+
+// }
 
 /* skills section start from here */
 #Skills {
@@ -112,12 +150,34 @@
     #circle-image-card {
         color: white;
     }
+
+    .slick-arrow {
+        &.slick-prev {
+            left: -6.2%;
+            top: 32.3%;
+        }
+        &.slick-next {
+            right: 6.2%;
+            top: 32.3%;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .slick-arrow{
+            &.slick-next{
+                right:4%;
+            }
+        }
+    }
 }
 
 /* contents section here */
 #contents {
     padding: 3rem;
     padding-bottom: 5rem;
+    @media screen and (max-width:800px) {
+        padding:1rem 1rem 5rem 1rem
+    }
     .title {
         padding: 2rem;
     }
@@ -135,6 +195,32 @@
             }
             p {
                 font-size: 14px;
+            }
+        }
+    }
+    .slick-arrow {
+        z-index: 5;
+        &.slick-prev {
+            left: -33px;
+            top: 32.3%;
+            &::before{
+               background:  url("https://api.iconify.design/grommet-icons/previous.svg?color=black") no-repeat center center/contain
+            }
+        }
+        &.slick-next {
+            right:0%;
+            top: 32.3%;
+            &::before{
+               background:  url("https://api.iconify.design/grommet-icons/next.svg?color=black") no-repeat center center/contain
+            }
+
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .slick-arrow{
+            &.slick-next{
+                right:-2%;
             }
         }
     }
@@ -177,39 +263,24 @@ footer#footer {
 }
 /* info data -table css here */
 #info-data-table {
-    .info {
-        background-color: #fff;
-        text-align: center;
-        border-bottom: 1px solid #828282;
-        padding: 20px 0;
+    padding: 3rem;
+    padding-bottom: 5rem;
+    @media screen and (max-width:800px) {
+        padding:1rem 1rem 5rem 1rem
+    }
+    .title{
+        padding:2rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #000;
     }
 
-    .info .info-heading {
-        padding: 50px 0;
-        border-bottom: 4px solid #333333;
+    &>.container{
+        &>.table-container{
+            &>.col-md-6{
+                &>.row{
+                    padding:20px;
+                }
+            }
+        }
     }
-
-    .info .info-heading h2 {
-        font-weight: 700;
-        color: #333333;
-        font-size: 36px;
-    }
-
-    .info .info-row .info-contant {
-        margin-top: 20px;
-    }
-
-    .info .info-row .info-contant button {
-        border: none;
-        padding: 10px 35px;
-        margin-right: 20px;
-    }
-
-    .info .info-row .info-contant p {
-        margin: 0;
-        padding-top: 10px;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-}
+}   
