@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div className="hnazmul-nav-brand">
                         <HashLink className="text-decoration-none" to="/#header">
                             <h4 className="fst-italic text-light text-decoration-none d-inline-flex align-items-center "
-                            ><img width={"40px"}  className="pt-1 me-2" src={MainLogo} alt="" /> MITNESS</h4>
+                            ><img width={"40px"}  className="pt-1 me-2" src={MainLogo} alt="" /> </h4>
                         </HashLink>
                     </div>
                     <div onClick={() => setIsNavbarshow(!isNavbarshow)} className="hnazmul-nav-toggle-btn">
