@@ -1,5 +1,5 @@
 import React from 'react';
-import { PilatesCard } from '../../Util/Utils';
+// import { PilatesCard } from '../../Util/Utils';
 import Contents from './Contents';
 import FAQ from './FAQ';
 import Fitness from './Fitness';
@@ -23,7 +23,7 @@ const Homepage = () => {
         <FAQ/>
         <Footer/>
         {/* for porpup */}
-        <PilatesCard/>
+        {/* <PilatesCard/> */}
         </>
     );
 };

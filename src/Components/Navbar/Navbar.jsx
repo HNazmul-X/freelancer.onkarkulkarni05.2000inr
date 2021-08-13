@@ -1,6 +1,6 @@
 import { InlineIcon } from "@iconify/react";
 import React, { useState } from "react";
-import { NavHashLink } from "react-router-hash-link";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 
 const Navbar = () => {
 
@@ -14,7 +14,9 @@ const Navbar = () => {
             <nav className="hnazmul-navbar">
                 <div className="hnazmul-navbar-container">
                     <div className="hnazmul-nav-brand">
-                        <h4 className="fst-italic">MITNESS</h4>
+                        <HashLink className="text-decoration-none" to="/#">
+                            <h4 className="fst-italic text-light text-decoration-none">MITNESS</h4>
+                        </HashLink>
                     </div>
                     <div onClick={() => setIsNavbarshow(!isNavbarshow)} className="hnazmul-nav-toggle-btn">
                         <button>

@@ -3,6 +3,9 @@
 $brand-color: #fc3288;
 $brand-gradient: linear-gradient(93.58deg, #fc3288 0%, #843795 100%);
 $brand-secondary: #843795;
+*{
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
 
 .theme-btn {
     background: $brand-color !important;
@@ -13,7 +16,7 @@ $brand-secondary: #843795;
     color: $brand-color;
 }
 .font-default{
-    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 html,
 body {
