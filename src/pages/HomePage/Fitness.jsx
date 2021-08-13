@@ -69,7 +69,7 @@ const Fitness = () => {
                         미트니스를 통해 집에서 오프라인 매장에서 느껴봤던 실시간 PT를 경험할 수 있습니다. <br />
                         계속 업데이트 되는 새롭고 많은 운동을 <span className="theme-text fst-italic mx-2">“홈 트레이닝”</span> 으로 느껴 보세요!!
                     </p>
-                    <button className="theme-btn text-light">지금 구매하기</button>
+                    <button className="theme-btn p-2 px-5 btn text-light">지금 구매하기</button>
                 </div>
             </div>
         </section>

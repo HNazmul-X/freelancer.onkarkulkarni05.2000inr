@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="hnazmul-navbar">
-                <div className="hnazmul-navbar-container">
+                <div className="hnazmul-navbar-container container">
                     <div className="hnazmul-nav-brand">
                         <HashLink className="text-decoration-none" to="/#header">
                             <h4 className="fst-italic text-light text-decoration-none">MITNESS</h4>
