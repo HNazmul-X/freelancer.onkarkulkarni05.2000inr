@@ -1,7 +1,7 @@
 import { InlineIcon } from "@iconify/react";
 import React, { useState } from "react";
 import { HashLink, NavHashLink } from "react-router-hash-link";
-
+import MainLogo from "../../images/main-logo.png"
 const Navbar = () => {
 
     const [isNavbarshow, setIsNavbarshow] = useState(false)
@@ -15,7 +15,8 @@ const Navbar = () => {
                 <div className="hnazmul-navbar-container container">
                     <div className="hnazmul-nav-brand">
                         <HashLink className="text-decoration-none" to="/#header">
-                            <h4 className="fst-italic text-light text-decoration-none">MITNESS</h4>
+                            <h4 className="fst-italic text-light text-decoration-none d-inline-flex align-items-center "
+                            ><img width={"40px"}  className="pt-1 me-2" src={MainLogo} alt="" /> MITNESS</h4>
                         </HashLink>
                     </div>
                     <div onClick={() => setIsNavbarshow(!isNavbarshow)} className="hnazmul-nav-toggle-btn">
