@@ -14,7 +14,7 @@ const Navbar = () => {
             <nav className="hnazmul-navbar">
                 <div className="hnazmul-navbar-container">
                     <div className="hnazmul-nav-brand">
-                        <HashLink className="text-decoration-none" to="/#">
+                        <HashLink className="text-decoration-none" to="/#header">
                             <h4 className="fst-italic text-light text-decoration-none">MITNESS</h4>
                         </HashLink>
                     </div>
